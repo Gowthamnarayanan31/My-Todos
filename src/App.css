@@ -1,0 +1,64 @@
+.styles-card{
+  background-color:powderblue;
+  color: black;
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 10px; 
+  margin-top: 20px;
+}
+.button-edit{
+  background-color: aqua;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+}
+
+.button-delete{
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 70px;
+  gap: 2rem;
+}
+.button{
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+.input{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+
+
+}
+input{
+  width: 25%;
+  border-color: cyan;
+  border-radius: 4px;
+  padding: 20px;
+}
+.button-add{
+  color: white;
+    background-color: cyan;
+    border-radius: 5px;
+    width: 150px;
+}
+.h2{  
+      display: flex;
+
+    margin-left: 20px;
+    margin-right: 56px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
